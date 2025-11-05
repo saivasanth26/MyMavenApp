@@ -1,4 +1,4 @@
-FROM sreedocker123/tomcat9maven:v1
+FROM tomcat:latest
 WORKDIR /app
 COPY . /app
 RUN mvn package
